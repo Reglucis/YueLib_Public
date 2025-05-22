@@ -1,0 +1,79 @@
+{
+	"makefile.makePath": "D:\\DevelopEnvironment\\ToolChain\\mingw64\\bin\\make.exe",
+	"commentTranslate.hover.enabled": true,
+	"C_Cpp.default.compilerPath": "D:/DevelopEnvironment/ToolChain/mingw64/bin/gcc.exe",
+	"C_Cpp.default.cStandard": "c99",
+	"C_Cpp.default.customConfigurationVariables": {
+
+	},
+	"C_Cpp.default.defines": [
+		"__CC_ARM",
+		"__clang__",
+		"__ARMCC_VERSION = 6010050",
+		"USE_HAL_DRIVER",
+		"STM32F407xx",
+		"ARM_MATH_LOOPUNROLL"
+	],
+	"C_Cpp.default.includePath": [
+		"${workspaceFolder}",
+		"${workspaceFolder}/Core/Inc",
+		"${workspaceFolder}/Drivers/CMSIS/Include",
+		"${workspaceFolder}/Drivers/CMSIS/Device/ST/STM32F4xx/Include",
+		"${workspaceFolder}/Drivers/CMSIS-DSP/Include",
+		"${workspaceFolder}/Drivers/CMSIS-DSP/PrivateInclude",
+		"${workspaceFolder}/Drivers/STM32F4xx_HAL_Driver/Inc",
+		"${workspaceFolder}/Drivers/STM32F4xx_HAL_Driver/IncLegacy",
+		"D:/DevelopEnvironment/uVision/ARM/ARMCLANG/include"
+	],
+	"files.exclude": {
+		".gitignore": true,
+		".mxproject": true,
+		".Output": true,
+		".vscode": true,
+		"*.jdebug.user": true,
+		"**/.hg": false,
+		"**/.svn": false,
+		"MapAnalyzer.exe": true,
+		"MDK-ARM": true
+	},
+	"commentTranslate.targetLanguage": "en",
+	"Codegeex.RepoIndex": true,
+	"files.associations": {
+		"*.h": "c",
+		"*.c": "c",
+		"charconv": "c",
+		"chrono": "c",
+		"array": "c",
+		"string": "c",
+		"string_view": "c",
+		"span": "c",
+		"vector": "c",
+		"typeinfo": "c",
+		"random": "c",
+		"__locale": "c",
+		"initializer_list": "c",
+		"limits": "c",
+		"ins_taskc": "c"
+	},
+	"material-icon-theme.files.customClones": [
+		
+	],
+	"material-icon-theme.folders.associations": {
+		"Core": "Bloc",
+		"Components": "Plugin",
+		"Drivers": "Sandbox",
+		"Sys": "Core",
+
+		
+	},
+	"material-icon-theme.hidesExplorerArrows": true,
+	"files.autoSave": "onWindowChange",
+	"cortex-debug.variableUseNaturalFormat": true,
+	"C_Cpp.clang_format_style": "{ BasedOnStyle: Microsoft, UseTab: Always, IndentWidth: 4, TabWidth: 4, BreakBeforeBraces: Linux, AllowShortIfStatementsOnASingleLine: false, IndentCaseLabels: True, ColumnLimit: 0, AccessModifierOffset: -4, PointerAlignment: Left,AlignConsecutiveAssignments: Consecutive, AlignConsecutiveMacros: Consecutive, AlignArrayOfStructures: None}",
+	"C_Cpp.clang_format_path": "",
+	"C_Cpp.default.compileCommands": [
+		
+		
+		""
+	]
+}

@@ -1,0 +1,18 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Cortex Debug",
+            "cwd": "${workspaceFolder}",
+            "executable": ".Output/AHRS_BoardTypeC.elf",
+            "request": "launch",
+            "type": "cortex-debug",
+            "runToEntryPoint": "main",
+            "servertype": "openocd",
+            "configFiles": [
+                "D:/DevelopEnvironment/OpenOCD/share/openocd/scripts/interface/cmsis-dap.cfg",
+                "D:/DevelopEnvironment/OpenOCD/share/openocd/scripts/target/stm32f4x.cfg"
+            ]
+        }
+    ]
+}
